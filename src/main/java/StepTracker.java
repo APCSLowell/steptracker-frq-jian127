@@ -7,7 +7,7 @@ private int tStep;
 private int day;
 
  public StepTracker(int x){
- step = x;
+ minStep = x;
  activeDay = 0;
   tStep = 0;
   activeDay = 0;
@@ -23,7 +23,7 @@ private int day;
  public int activeDays(){
   return activeDay;
  }
- public double AverageSteps(){
+ public double averageSteps(){
   if(day == 0){
    return 0.0;
   }
