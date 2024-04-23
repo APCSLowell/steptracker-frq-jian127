@@ -27,8 +27,7 @@ private int day;
   if(day == 0){
    return 0.0;
   }
-  else if ( day >= 1){
+  else 
   return (double)tStep/day;
- }
  }
 } 
