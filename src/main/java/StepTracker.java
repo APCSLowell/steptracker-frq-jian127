@@ -14,7 +14,7 @@ private int day;
   
  }
  public void addDailySteps(int s){
-  tstep+= s;
+  tStep+= s;
   day++;
   if(tStep >= minStep){
    activeDay++;
