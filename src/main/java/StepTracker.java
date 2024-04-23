@@ -23,7 +23,7 @@ private int day;
  public int activeDays(){
   return activeDay;
  }
- publid double AverageSteps(){
+ public double AverageSteps(){
   if(day == 0){
    return 0.0;
   }
